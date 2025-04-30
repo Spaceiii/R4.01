@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - Temple intérieur</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f2f2f2;
+            text-align: center;
+            padding-top: 80px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background: #c0392b;
+            color: white;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+<h2>Bienvenue dans la page secrète</h2>
+<h5>Vous êtes connecté, {{user.firstname}} {{user.lastname}} !</h5>
+<a class="btn" href="/logout">Se déconnecter</a>
+</body>
+</html>
