@@ -29,13 +29,13 @@ projet2
 ## Installation
 
 1. Clonez le dépôt
-2. Installez les dépendances
+2. Installez les dépendances dans le dossier backend puis dans le dossier frontend
 ```bash
 npm install
 ```
-3. Créez un fichier `.env` à la racine du dossier backend et ajoutez les variables d'environnement suivantes :
+3. Créez un fichier `.env` à la racine du dossier backend et ajoutez les variables d'environnement suivantes (laissez le port sur 3000) :
 ```txt
-PORT=votre_port
+PORT=3000
 DB_NAME=votre_base_de_donnees
 DB_USER=votre_nom_utilisateur
 DB_PASS=votre_mot_de_passe
